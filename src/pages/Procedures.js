@@ -3,7 +3,7 @@ import React from 'react';
 const Procedure = () => {
     return(
         <>
-            <h1>Dentist Office</h1>
+            <h1>ProceduresDentist Office</h1>
             <p>Welcome to the Dentist office!</p>
         </>
     )
