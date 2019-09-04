@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adam-weiler/dentist/static/css/main.2cce8147.chunk.css",
+    "main.js": "/adam-weiler/dentist/static/js/main.a6543e9e.chunk.js",
+    "main.js.map": "/adam-weiler/dentist/static/js/main.a6543e9e.chunk.js.map",
+    "runtime~main.js": "/adam-weiler/dentist/static/js/runtime~main.ca0e005c.js",
+    "runtime~main.js.map": "/adam-weiler/dentist/static/js/runtime~main.ca0e005c.js.map",
+    "static/js/2.341cfee0.chunk.js": "/adam-weiler/dentist/static/js/2.341cfee0.chunk.js",
+    "static/js/2.341cfee0.chunk.js.map": "/adam-weiler/dentist/static/js/2.341cfee0.chunk.js.map",
+    "index.html": "/adam-weiler/dentist/index.html",
+    "precache-manifest.e49718ff97929fdf86209cb2e3aa28cd.js": "/adam-weiler/dentist/precache-manifest.e49718ff97929fdf86209cb2e3aa28cd.js",
+    "service-worker.js": "/adam-weiler/dentist/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/adam-weiler/dentist/static/css/main.2cce8147.chunk.css.map"
+  }
+}
