@@ -30,9 +30,23 @@ function App() {
 
         <Switch>
         {/* <Route exact path='/' component={Home} /> */}
-          <Route path='/procedures/:id' component={Procedure} />
-          <Route path='/procedures' component={Procedures} />
-          <Route path='/contact' component={Contact} />
+          
+          {/* <Route path='/procedures/:id' component={Procedure} />  */}{/* This goes first. */}
+          
+          <Route path='/procedures/:id' render={ (props) =>
+            <Procedure {...props} />
+          } />
+
+          {/* <Route path='/procedures' component={Procedures} /> */}     {/* This goes second. */}
+          <Route path='/procedures' render={ (props) => 
+            <Procedures {...props} />
+          } />
+
+          {/* <Route path='/contact' component={Contact} /> */}
+          <Route path='/contact' render={ (props) => 
+            <Contact phone_number='1-800-MY-TEETH' {...props} />
+          } />
+          
           <Route path='/' component={Home} />
   {/* 
           <Home />
