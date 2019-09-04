@@ -3,8 +3,8 @@ import React from 'react';
 const Procedure = () => {
     return(
         <>
-            <h1>ProceduresDentist Office</h1>
-            <p>Welcome to the Dentist office!</p>
+            <h1>Procedures</h1>
+            <p>Procedures</p>
         </>
     )
 }
