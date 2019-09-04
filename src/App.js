@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Procedure from './pages/Procedure.js';
 import Procedures from './pages/Procedures';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
 
         <Switch>
         {/* <Route exact path='/' component={Home} /> */}
+          <Route path='/procedures/:id' component={Procedure} />
           <Route path='/procedures' component={Procedures} />
           <Route path='/contact' component={Contact} />
           <Route path='/' component={Home} />
